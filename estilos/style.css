@@ -1,0 +1,62 @@
+body{
+    background-color: gray;
+}
+
+#h1{
+    font-family: serif;
+    font-size: 80px;
+}
+
+.ojo{
+    display: flex;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    outline-style: solid;
+    margin-left: 45%;
+    margin-top: 15%;
+}
+
+.circulo{
+    display: flex;
+    border: solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 22px;
+    margin-left: 23px;
+    animation: girar 4s linear infinite;
+}
+
+.pupila{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.aspa{
+    transform: rotate(160deg);
+}
+
+.aspa2{
+    transform: rotate(280deg);
+    margin-left: -18px;
+    margin-top: 10px;
+}
+
+.aspa3{
+    transform: rotate(60deg);
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+@keyframes girar{
+    100%{
+        transform: rotate(360deg);
+    }
+}
